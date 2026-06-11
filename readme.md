@@ -65,7 +65,7 @@ Set `MAX_EVAL_EXAMPLES = 1000` for a smoke test; `None` runs the full 7951 basel
 
 ## Limitations
 
-- One model (Pythia-6.9B), one prompt format
+- One model (Pythia-6.9B), one prompt format, but preliminary GPT-J tests are clearer and shows the same story. Will be added.
 - T3 wrong frequency recovery is partial, not complete
 - Single period steering fails, so the channels are not independently steerable
 - Magnitude steering is weak relative to magnitude ablation
